@@ -1,0 +1,31 @@
+.row_single_data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+    gap: 4.5rem;
+}
+#checkbox{
+    height: 1rem;
+    width: 15px;
+}
+#ptag{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(216, 16, 16);
+}
+.single_delete_data_btn{
+    cursor: pointer;
+    padding: 0.3rem 0.5rem;
+    font-weight: bold;
+    font-size: 13px;
+    border-radius: 5px;
+    color: rgb(6, 6, 6);
+    border: 1px solid rgb(241, 239, 239);
+    background-color: rgb(247, 168, 202);
+}
+.single_delete_data_btn:hover{
+    background-color: rgb(0, 0, 0);
+    font-size: 12.5px;   
+}
